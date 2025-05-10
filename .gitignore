@@ -19,7 +19,9 @@ target/
 *.iml
 *.ipr
 
-src/main/resources/.env
+### Env File
+src/main/resources/application-env.properties
+
 
 ### NetBeans ###
 /nbproject/private/
