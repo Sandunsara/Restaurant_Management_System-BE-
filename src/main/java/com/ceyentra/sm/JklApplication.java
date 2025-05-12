@@ -1,6 +1,5 @@
 package com.ceyentra.sm;
 
-import com.ceyentra.sm.config.EnvConfigLoader;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -20,10 +19,7 @@ public class JklApplication extends SpringBootServletInitializer {
 		return application.sources(JklApplication.class);
 	}
 
-	public static void main(String[] args){
-		// Load .env file
-		//EnvConfigLoader.loadEnv();
+	public static void main(String[] args) {
 		SpringApplication.run(JklApplication.class, args);
 	}
-
 }
