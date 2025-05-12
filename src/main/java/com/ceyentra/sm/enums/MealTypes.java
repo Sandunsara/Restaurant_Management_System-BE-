@@ -1,0 +1,5 @@
+package com.ceyentra.sm.enums;
+
+public enum MealTypes {
+    STARTERS_SOUP , SALAD , CHICKEN ,BIRIYANI,BBQ,INTERNATIONAL,SANDWICH,DESSERT,EXTRA,FRESH_JUICE,TEA_COFFEE
+}
